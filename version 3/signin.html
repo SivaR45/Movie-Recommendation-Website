@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+         body {
+            background: url('image 2.jpg') no-repeat center center fixed;
+            font-family: HTGFellix, Inter, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        #container {
+            height: 100vh; /* Full height of viewport */
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+        }
+        .box
+        {
+            width: 30%;
+            height: 450px;
+            margin: auto;
+            background-image: url(image\ 1.jpeg);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            color: white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 20px;       
+        }
+        #container>img{
+            width: 100px;
+            height: 100px;
+        margin-top: 40px;
+        }
+        form>input{
+            display: block;
+            margin: auto;
+            padding: 20px 100px 20px 10px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            border-radius: 10px;
+        }
+        .box>form>#signin
+        {
+            padding: 10px;
+        }
+       a
+        {
+            text-decoration: none;
+            font-size: 22px;
+            color: aqua;
+            font-family: HTGFellix, Inter, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        
+        <div class="box">
+            <h1>Create Account</h1>
+            <form>
+                <input type="text" name="" id="name" placeholder="Enter Full Name" required class="form-control">
+                <input type="email" name="" id="email" placeholder="Enter Email" required class="form-control">
+                <input type="number" name="" id="mobile" placeholder="Phone Number" required class="form-control">
+                <input type="password" name="" id="password" placeholder="Enter Password" required class="form-control">
+                <input type="submit" name="" id="signin" value="Create Account" class="btn btn-primary btn-block">
+            </form>
+            
+            <p>Already have an account <a href="login.html" class="login">log-in</a></p>
+
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

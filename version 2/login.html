@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: url('image 1.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            font-family: HTGFellix, Inter, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        #container {
+            height: 100vh; /* Full height of viewport */
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+        }
+        h1{
+            text-align: center;
+        }
+        .box {
+            width: 30%;
+            color: rgb(255, 255, 255);
+            background: url(image\ 1.jpeg);
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            padding: 30px;
+        }
+        form input {
+            display: block;
+            margin: auto;
+            padding: 20px 100px 20px 10px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+        form #login {
+            padding: 10px 20px 10px 20px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 25px;
+            margin-bottom: 100px;
+            color: aqua;
+            font-family: HTGFellix, Inter, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="box">
+            <h1>Log-in Account</h1>
+            <form>
+                <input type="email" name="" id="email" placeholder="Enter email" required>
+                <input type="password" name="" id="password" placeholder="Enter password" required>
+                <input type="submit" name="" id="login" value="Log-in">
+            </form>
+            <p>Don't have an account? <a href="signin.html">Sign-up</a></p>
+        </div>
+    </div>
+</body>
+</html>
